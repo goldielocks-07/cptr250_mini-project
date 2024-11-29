@@ -1,0 +1,65 @@
+
+body {
+    background-image: url(../Images/BG1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}  
+
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 50px;
+    color: orange;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Arial MT', sans-serif;
+}
+
+.vintaren {
+    margin-left: 50px;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.image {
+    border-radius: 30px;
+    height: 280px;
+    transition: 1s ease;
+    margin: 30px;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+p {
+    margin: 30px 70px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+

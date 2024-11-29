@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NAVBARSTYLE CSS -->
+    <link rel="stylesheet" href="../cptr250_mini-project/CSS/NAVBARSTYLE.css">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="../cptr250_mini-project/CSS/HISTORYSTYLE.css">
+
+
+    <!-- FONTS -->
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/jakobenz" rel="stylesheet">
+                
+
+    <title>Vintar</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#FFA500"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="../cptr250_mini-project/Home.html">Home</a></li>
+                <li><a href="../cptr250_mini-project/History.html">History</a></li>
+                <li><a href="../cptr250_mini-project/TouristSpot.html">Tourist Spots</a></li>
+                <li><a href="../cptr250_mini-project/Festival.html">Festival</a></li>
+                <li><a href="../cptr250_mini-project/WebM.html" class="webm">WEB M</a></li>
+            </ul>
+            <ul>
+                <li><img src="../cptr250_mini-project/Images/LOGO.png" alt="LOGO" class="logo"></li>
+                <li></li><a href="../cptr250_mini-project/Home.html"class="logo2">VINTAR</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/Home.html">Home</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/History.html">History</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/TouristSpot.html">Tourist Spots</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/Festival.html">Festival</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/WebM.html" class="webm">WEB M</a></li>
+                <li class="menubtn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#FFA500"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <img src="../cptr250_mini-project/Images/OldMunicipalBuild..png" alt="" class="img1">
+        <h2>History of Vintar</h2>
+        <p>The town's earliest settlers are believed to be of Malay in origin. They first settled on a hill overlooking the Bislak. The town was founded by the Spanish missionaries who got lost in the woods while hunting between Sarrat and Piddig. Vintar became a visita of Bacarra but it was later established as a Parish of San Nicolas de Tolentino. Earlier in 1763, Vintar was reverted to a visita until it became independent in 1774.
+        In 1903, Vintar was annexed as a barrio of Bacarra. It gained its separation and independence in 1909.    
+        The town is home to one of the biggest convents in Ilocos Norte. In 1931, an earthquake partially destroyed its church and convent. Five years later, it was restored. The convent which houses the Saint Nicolas Academy was restored in 1982.
+        Vintar was one of the Ilocos region municipalities where various human rights violations were documented during the martial law era, despite public perception that the region was supportive of the Marcos administration. Three indigenous community members in Vintar are documented to have been "salvaged" in 1984, the same year as eight farmers in Bangui also disappeared, while farmers from the towns of Vintar, Dumalneg, Solsona, Marcos and Piddig were also documented to have been tortured.</p>
+    </div>
+
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>

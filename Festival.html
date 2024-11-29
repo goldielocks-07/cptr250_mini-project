@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NAVBARSTYLE CSS -->
+    <link rel="stylesheet" href="../cptr250_mini-project/CSS/NAVBARSTYLE.css">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="../cptr250_mini-project/CSS/FESTIVALSTYLE.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/jakobenz" rel="stylesheet">
+                
+
+    <title>Vintar</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#FFA500"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="../cptr250_mini-project/Home.html">Home</a></li>
+                <li><a href="../cptr250_mini-project/History.html">History</a></li>
+                <li><a href="../cptr250_mini-project/TouristSpot.html">Tourist Spots</a></li>
+                <li><a href="../cptr250_mini-project/Festival.html">Festival</a></li>
+                <li><a href="../cptr250_mini-project/WebM.html" class="webm">WEB M</a></li>
+            </ul>
+            <ul>
+                <li><img src="../cptr250_mini-project/Images/LOGO.png" alt="LOGO" class="logo"></li>
+                <li></li><a href="../cptr250_mini-project/Home.html"class="logo2">VINTAR</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/Home.html">Home</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/History.html">History</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/TouristSpot.html">Tourist Spots</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/Festival.html">Festival</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/WebM.html" class="webm">WEB M</a></li>
+                <li class="menubtn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#FFA500"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="content">
+        <img src="../cptr250_mini-project/Images/Siwawer Festival.jpg" alt="img" class="img">
+        <h1>SIWAWER FESTIVAL</h1>
+        <p>Siwawer Festival is the annual festival of Vintar. This festival of the town is being celebrated in honor of the siwawer the local name of the brahminy kite species of eagle that soars the skies of Vintar. The Festival starts on December 4 which is also the Vintar Day, the foundation of the municipality when it was separated from the town of Bacarra in 1909.</p>
+
+        <h1 class="images">IMAGES</h1>
+
+        <div class="pictures">
+            <img src="../cptr250_mini-project/Images/festival1.jpg" alt="pic" class="picture">
+            <img src="../cptr250_mini-project/Images/festival2.jpg" alt="pic" class="picture">
+            <img src="../cptr250_mini-project/Images/festival3.jpg" alt="pic" class="picture">
+            <img src="../cptr250_mini-project/Images/festival4.jpg" alt="pic" class="picture">
+        </div>
+
+
+
+    </div>
+
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>

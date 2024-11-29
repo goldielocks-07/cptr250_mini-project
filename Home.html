@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- NAVBARSTYLE CSS -->
+    <link rel="stylesheet" href="../cptr250_mini-project/CSS/NAVBARSTYLE.css">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="../cptr250_mini-project/CSS/HOMESTYLE.css">
+
+
+    <!-- FONTS -->
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/jakobenz" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/arial-mt" rel="stylesheet">
+  
+
+    <title>Vintar</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#FFA500"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="../cptr250_mini-project/Home.html">Home</a></li>
+                <li><a href="../cptr250_mini-project/History.html">History</a></li>
+                <li><a href="../cptr250_mini-project/TouristSpot.html">Tourist Spots</a></li>
+                <li><a href="../cptr250_mini-project/Festival.html">Festival</a></li>
+                <li><a href="../cptr250_mini-project/WebM.html" class="webm">WEB M</a></li>
+            </ul>
+            <ul>
+                <li><img src="../cptr250_mini-project/Images/LOGO.png" alt="LOGO" class="logo"></li>
+                <li></li><a href="https://www.google.com/maps/place/Vintar,+Ilocos+Norte/@18.3180396,120.625587,11z/data=!3m1!4b1!4m6!3m5!1s0x338ed3449b5691c1:0x59cc3ebe2e29da63!8m2!3d18.3141291!4d120.7809676!16zL20vMDZqd3A3?entry=ttu&g_ep=EgoyMDI0MTExMC4wIKXMDSoASAFQAw%3D%3D"class="logo2" target="_blank">VINTAR</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/Home.html">Home</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/History.html">History</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/TouristSpot.html">Tourist Spots</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/Festival.html">Festival</a></li>
+                <li class="hideOnMobile"><a href="../cptr250_mini-project/WebM.html" class="webm">WEB M</a></li>
+                <li class="menubtn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#FFA500"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="tagline">
+        <div class="dur-asen"> DUR-ASEN</div>
+        <div class="vintaren">VINTAREN</div>
+    </div>
+
+
+    <div class="content">
+        <div class="images">
+            <img src="../cptr250_mini-project/Images/locatinVINTAR.png" alt="MAP" class="image">
+        </div>
+        
+        <p>Vintar is the largest municipality in Ilocos Norte. Its patron saint is Saint Nicholas de Tolentino. It is home of one of the biggest convents in the province where it houses the Saint Nicholas Academy. It is also where Vintar Dam is located, first dam funded by the World Bank in Southeast Asia, an important cultural property listed by the National Commission for Culture and the Arts (NCCA) and is also the site of the Umok ni Siwawer Eco-Tourism Nature Park, the town's popular picnic resort.</p>
+    </div>
+    
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background-image: url(../Images/BG1.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 2px orange;
+    font-size: 62px;
+    transition: .7s ease-in-out;
+}
+
+.title:hover {
+    color: orange;
+    -webkit-text-stroke: 1px white;
+}
+
+.spots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.place {
+    display: flex;
+    margin: 50px 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 800px;
+    /* background-color: rgba(0, 0, 255, 0.418); */
+}
+
+.image {
+    width: 550px;
+    border-radius: 30px;
+    transition: 0.6s ease;
+    margin-top: 50px;
+    transition: .6 ease;
+    margin-top: 20px;
+}
+
+.image:hover {
+    transform: scale(1.03);
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    padding: 10px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    transition: 1s ease;
+}
+
+.link a:hover {
+    background-color: white;
+    color: orange;
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 54px;
+    }
+
+    .place {
+        height: 700px;
+        width: 100%;
+        margin: 20px 30px;
+    }
+
+    .image {
+        width: 450px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .link {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 44px;
+    }
+
+    .place {
+        height: 650px;
+        width: 100%;
+        margin: 20px 25px;
+    }
+
+    .image {
+        width: 315px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .link {
+        margin-top: 14px;
+    }
+}
+
