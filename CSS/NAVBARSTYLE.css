@@ -11,6 +11,10 @@
     backdrop-filter: blur(30px);
     box-shadow: 0px 0px 30px black;
     border-bottom: 1.5px solid orange;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 
